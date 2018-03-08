@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"></a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Recommendations <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Fitness</a></li>
+          <li><a href="#">Cost Analysis</a></li>
+          <li><a href="#">Seasonal</a></li>
+		  <li><a href="customizetrip.html">Customize your trip</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Adventure Stories</a></li>
+      <li><a href="#">Gallery</a></li>
+	  <li><a href="aboutexample.html">About Us</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<div class="container">
+  <h2>Please fill this form to organize your own trip. We will feel happy to help you.</h2>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  
+  <form class="form-horizontal" action="/action_page.php">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="name">Name</label>
+      <div class="col-sm-10">
+        <input type="name" class="form-control" id="text" placeholder="Name" name="name">
+      </div>
+    </div>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<div class="form-group">
+      <label class="control-label col-sm-2" for="email">Email:</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" id="email" placeholder="Email" name="email">
+      </div>
+	  </div>
+	  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  <div class="form-group">
+      <label class="control-label col-sm-2" for="phone no">Phone No</label>
+      <div class="col-sm-10">
+        <input type="phone no" class="form-control" id="digits" placeholder="Phone No" name="Phone no">
+      </div>
+        </div>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<div class="form-group">
+      <label class="control-label col-sm-2" for="location">Preferable Location</label>
+      <div class="col-sm-10">
+        <input type="location" class="form-control" id="text" placeholder="Preferable Location" name="location">
+      </div>
+	  </div>
+	  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  <div class="form-group">
+      <label class="control-label col-sm-2" for="duration">Duration Trip</label>
+      <div class="col-sm-10">
+        <input type="duration" class="form-control" id="text" placeholder="Duration Trip" name="duration trip">
+      </div>
+	  </div>
+	  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  <div class="form-group">
+      <label class="control-label col-sm-2" for="participants">No of Participants</label>
+      <div class="col-sm-10">
+        <input type="no" class="form-control" id="digits" placeholder="No of Participants" name="no">
+      </div>
+	  </div>
+	  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  <div class="form-group">
+      <label class="control-label col-sm-2" for="age">Age Group of participants</label>
+      <div class="col-sm-10">
+        <input type="age" class="form-control" id="text" placeholder="Age Group of participants" name="age">
+      </div>
+	  </div>
+	  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	   <div class="form-group">
+      <label class="control-label col-sm-2" for="age">Budget(Approx) for entire Trip</label>
+      <div class="col-sm-10">
+        <input type="budget" class="form-control" id="text" placeholder="Budget(Approx) for entire Trip" name="budget">
+      </div>
+	  </div>
+	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-default">Submit</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
